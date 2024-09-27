@@ -9,7 +9,7 @@ import requests
 
 # Define the API endpoint and access token
 API_URL = "https://api.psnext.info/api/chat"
-PSCHATACCESSTOKEN = "your_access_token_here"
+PSCHATACCESSTOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MzcxMzcsInJvbGVzIjpbImRlZmF1bHQiXSwicGF0aWQiOiJmYTRlMzZhNC1mMWU5LTRjMjktODYwMi0wZDU1NGFmMGIxYzcifSwiaWF0IjoxNzI2MDUwNDI2LCJleHAiOjE3Mjg2NDI0MjZ9.gw74MhUO6rO3wrauMHQxdm8PWK6RBJAh6v7yIFSS8zA"
 
 # Function to extract text from a Word document
 def extract_text_from_word(docx_file):
